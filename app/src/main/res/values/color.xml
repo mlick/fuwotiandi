@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="model_color">#696969</color>
+    <!-- <color name="model_num_color">#0000ff</color> -->
+    <color name="model_num_color">#b0c4de</color>
+    <!-- <color name="model_num_color">#ff778899</color> -->
+    <color name="model_input_num_color">#ff708090</color>
+    <color name="model_time_color">#FF5001</color>
+    <color name="white">#FFFFFF</color>
+
+</resources>

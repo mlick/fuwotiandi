@@ -1,0 +1,105 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/black">
+
+    <!--  -->
+
+    <!--<com.lxx.jlgy.custom.PowerImageView-->
+    <ImageView
+        android:id="@+id/image_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="10dip"
+        android:layout_marginRight="10dip"
+        android:src="@drawable/mode_bg5" />
+
+    <!--   attr:auto_play="false"  -->
+
+    <LinearLayout
+        android:id="@+id/main_select_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/transparent"
+        android:gravity="center_vertical"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/user_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="欢迎您使用"
+            android:textColor="@android:color/white"
+            android:textSize="22.0dip" />
+
+        <Button
+            android:id="@+id/free_button"
+            android:layout_width="250dip"
+            android:layout_height="50dip"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="15.0dip"
+            android:background="@drawable/button_style"
+            android:text="@string/free_button_text"
+            android:textColor="@android:color/white"
+            android:textSize="22.0dip" />
+
+        <Button
+            android:id="@+id/xianshi_button"
+            android:layout_width="250dip"
+            android:layout_height="50dip"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="15.0dip"
+            android:background="@drawable/button_style"
+            android:text="@string/xianshi_text"
+            android:textColor="@android:color/white"
+            android:textSize="22.0dip" />
+
+        <Button
+            android:id="@+id/mubiao_button"
+            android:layout_width="250dip"
+            android:layout_height="50dip"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="15.0dip"
+            android:background="@drawable/button_style"
+            android:text="@string/mubiao_text"
+            android:textColor="@android:color/white"
+            android:textSize="22.0dip" />
+
+        <Button
+            android:id="@+id/look_button"
+            android:layout_width="250dip"
+            android:layout_height="50dip"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="15.0dip"
+            android:background="@drawable/button_style"
+            android:text="@string/look_text"
+            android:textColor="@android:color/white"
+            android:textSize="22.0dip" />
+
+        <Button
+            android:id="@+id/yanshitu_button"
+            android:layout_width="250dip"
+            android:layout_height="50dip"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="15.0dip"
+            android:background="@drawable/button_style"
+            android:text="@string/guide_text"
+            android:textColor="@android:color/white"
+            android:textSize="22.0dip" />
+
+        <Button
+            android:id="@+id/exit_button"
+            android:layout_width="250dip"
+            android:layout_height="50dip"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="15.0dip"
+            android:background="@drawable/button_style"
+            android:text="@string/exit_text"
+            android:textColor="@android:color/white"
+            android:textSize="22.0dip" />
+    </LinearLayout>
+
+</RelativeLayout>

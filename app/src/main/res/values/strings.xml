@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">健身宝之俯卧天地</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">0</string>
+    <string name="title_activity_show_info">ShowInfoActivity</string>
+    <string name="title_activity_menu">MenuActivity</string>
+    <string name="free_button_text">自由模式</string>
+    <string name="mubiao_text">目标模式</string>
+    <string name="xianshi_text">限时模式</string>
+    <string name="look_text">查看记录</string>
+    <string name="guide_text">查看演示图</string>
+    <string name="exit_text">退出</string>
+    <string name="welcome_guid">健身宝之俯卧天地</string>    
+    <string name="about_me">制作者： 李祥鑫 \n\nQQ ：956217275 \n\n所在团队 : 锋芒工作室</string>    
+    <string name="title_activity_guide">GuideActivity</string>
+</resources>

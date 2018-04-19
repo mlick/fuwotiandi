@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout_root"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/guide_bg3"
+    android:orientation="vertical"
+    android:padding="5dp" >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10.0dip"
+        android:layout_marginTop="100dip"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/show_user_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="1"
+            android:text="请先为自己起个霸气点的名字："
+            android:textColor="@android:color/background_dark"
+            android:textSize="18.0dip" />
+
+        <EditText
+            android:id="@+id/edit_text"
+            android:layout_width="167dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:layout_marginLeft="10dip"
+            android:layout_marginTop="1dip"
+            android:background="@drawable/edit_bg"
+            android:ems="10"
+            android:focusable="true"
+            android:gravity="center"
+            android:hint="比如：小强"
+            android:textSize="16.0dip" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/submit_info"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dip"
+        android:background="@drawable/confirm_btn" />
+
+</LinearLayout>

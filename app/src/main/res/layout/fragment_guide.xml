@@ -1,0 +1,42 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+   >
+    <!--
+    <ImageView
+        android:id="@+id/gifpicture"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/animation" />
+    -->
+
+    <ProgressBar
+        android:id="@+id/ProgressBar01"
+        style="@style/animStyle"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_width="220.0dip"
+        android:layout_height="315.0dip" >
+
+    </ProgressBar>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/ProgressBar01"
+        android:layout_centerHorizontal="true"
+        android:textSize="15.0dip"
+        android:text="请选择一种模式并将手机放置到胸前或者头前" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/ProgressBar01"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="30dp"
+        android:text="演示图"
+        android:textSize="25.0dip" />
+
+</RelativeLayout>

@@ -1,0 +1,55 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/re_goal_onclick"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <TextView
+        android:id="@+id/textview1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:gravity="center"
+        android:text="@string/hello_world"
+        android:textColor="@color/model_num_color"
+        android:textSize="250sp"
+        android:visibility="invisible" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="150dp"
+        android:gravity="center_horizontal" >
+
+        <EditText
+            android:id="@+id/edittext"
+            android:layout_width="160dp"
+            android:layout_height="50dip"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/edit_bg"
+            android:ems="2"
+            android:gravity="center"
+            android:hint="请先输入1~100数字"
+            android:inputType="number"
+            android:maxLength="2"
+            android:paddingTop="15dip"
+            android:textAppearance="?android:attr/textAppearanceLargeInverse"
+            android:textColor="@color/model_input_num_color"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/sure_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/edittext"
+            android:layout_alignBottom="@+id/edittext"
+            android:layout_marginLeft="16dp"
+            android:layout_toRightOf="@+id/edittext"
+            android:background="@drawable/time_start" />
+    </RelativeLayout>
+
+</RelativeLayout>

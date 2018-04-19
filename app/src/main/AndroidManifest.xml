@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.lxx.jlgy"
+    android:versionCode="2"
+    android:versionName="1.1">
+
+    <uses-sdk
+        android:minSdkVersion="11"
+        android:targetSdkVersion="11" />
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <uses-permission android:name="android.permission.VIBRATE" />
+
+    <!--android:allowBackup="true"-->
+    <!--android:hardwareAccelerated="true"-->
+
+    <!-- 禁止硬件的加速 -->
+    <application
+        android:name="com.lxx.MyApplication"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name="com.lxx.jlgy.WelcomeActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name="com.lxx.jlgy.FreeModel3"
+            android:screenOrientation="portrait"
+            android:theme="@style/my_activity_dialog"></activity>
+        <activity
+            android:name="com.lxx.jlgy.ShowInfoActivity"
+            android:label="@string/title_activity_show_info"></activity>
+        <activity
+            android:name="com.lxx.jlgy.MenuActivity"
+            android:label="@string/title_activity_menu"
+            android:screenOrientation="portrait"></activity>
+        <activity
+            android:name="com.lxx.jlgy.GuideActivity"
+            android:screenOrientation="portrait"></activity>
+        <activity
+            android:name="com.lxx.jlgy.GetUserNameActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan|stateVisible|stateHidden"></activity>
+        <activity
+            android:name="com.lxx.jlgy.GoalActivity2"
+            android:screenOrientation="portrait"
+            android:theme="@style/my_activity_dialog"></activity>
+        <activity
+            android:name="com.lxx.jlgy.TimeModel2"
+            android:screenOrientation="portrait"
+            android:theme="@style/my_activity_dialog"></activity>
+        <activity
+            android:name="com.lxx.jlgy.AboutMeActivity"
+            android:screenOrientation="portrait"></activity>
+    </application>
+
+</manifest>
